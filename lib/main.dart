@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:odo_tv/features/model/onBoarding.dart';
 import 'package:odo_tv/features/onboarding/onboarding_page.dart';
 import 'package:odo_tv/styles.dart';
 

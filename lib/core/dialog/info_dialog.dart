@@ -2,7 +2,6 @@ import 'dart:math' as math show pow;
 
 import 'package:flutter/material.dart' show Icons;
 import 'package:flutter/widgets.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SpinKitPumpingHeart extends StatefulWidget {
   const SpinKitPumpingHeart({

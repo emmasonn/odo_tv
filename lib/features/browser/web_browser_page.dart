@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:odo_tv/features/browser/web_stack.dart';
-import 'package:odo_tv/styles.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebBrowser extends StatefulWidget {
