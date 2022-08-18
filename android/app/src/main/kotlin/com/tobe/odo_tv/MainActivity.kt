@@ -1,4 +1,4 @@
-package com.example.odo_tv
+package com.tobe.odo_tv
 
 import io.flutter.embedding.android.FlutterActivity
 
