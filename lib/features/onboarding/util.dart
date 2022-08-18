@@ -11,12 +11,12 @@ List onBoardingInfos = <OnBoardingModel>[
       subTitle: '''Watch award-winning movies,
 TV shows, series, anime, cartoons, documentaries, etc'''),
   const OnBoardingModel(
-      assetName: 'assets/two.png',
+      assetName: 'assets/three.png',
       title: 'New Experience',
       subTitle:
           '''Enjoy the new TV experience, take your TV Everwhere you go! On mobile devices, smart TV sets.'''),
   const OnBoardingModel(
-      assetName: 'assets/two.png',
+      assetName: 'assets/four.png',
       title: 'Best quality',
       subTitle: '''Enjoy best quality HD-4k watching OdoTV.''')
 ];

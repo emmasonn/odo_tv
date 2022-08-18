@@ -26,7 +26,7 @@ class OnBoardingCard extends StatelessWidget {
                   fit: BoxFit.cover)),
         ),
         Container(
-          color: Colors.black26,
+          color: Colors.black,
           padding: const EdgeInsets.all(16),
           margin: const EdgeInsets.all(8.0),
           child: Column(

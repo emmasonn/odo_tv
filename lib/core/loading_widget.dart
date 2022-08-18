@@ -7,7 +7,7 @@ class InfoDialog {
     return Container(
       width: 80.0,
       padding: const EdgeInsets.all(10),
-      decoration: const BoxDecoration(color: Colors.black12),
+      decoration: const BoxDecoration(color: Colors.white24),
       child: SpinKitPumpingHeart(
         size: 30.0,
         color: color,
