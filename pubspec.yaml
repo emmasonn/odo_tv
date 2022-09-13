@@ -28,13 +28,14 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   carousel_slider: ^4.1.1
+  change_app_package_name: ^1.0.0
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.2.7
-  change_app_package_name: ^1.0.0
   font_awesome_flutter: ^10.1.0
   google_fonts: ^3.0.1
+  shared_preferences: ^2.0.15
   webview_flutter: ^3.0.4
 
 dev_dependencies:

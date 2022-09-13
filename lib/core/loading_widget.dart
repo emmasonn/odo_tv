@@ -10,7 +10,14 @@ class InfoDialog {
       decoration: const BoxDecoration(color: Colors.white24),
       child: SpinKitPumpingHeart(
         size: 30.0,
-        color: color,
+        itemBuilder: (context, index) {
+          return SizedBox(
+              height: 50,
+              width: 50,
+              child: Image.asset(
+                'assets/loading.png',
+              ));
+        },
       ),
     );
   }

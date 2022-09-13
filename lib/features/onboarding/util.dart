@@ -4,19 +4,21 @@ List onBoardingInfos = <OnBoardingModel>[
   const OnBoardingModel(
       assetName: 'assets/one.png',
       title: 'TV Everwhere',
-      subTitle: 'Watch 250+ live TV channels Anywhere, anytime.'),
+      subTitle:
+          '''Watch on every device. Available on phones, tablets, iPad PC and Smart TV'''),
   const OnBoardingModel(
       assetName: 'assets/two.png',
-      title: 'VOD',
-      subTitle: '''Watch award-winning movies,
-TV shows, series, anime, cartoons, documentaries, etc'''),
+      title: 'Enjoy best quality',
+      subTitle:
+          '''No matter your device, you can get the best quality of videos. SD, HD, Full HD, 2K, 4K, 8K
+'''),
   const OnBoardingModel(
       assetName: 'assets/three.png',
-      title: 'New Experience',
+      title: 'New Tv Experience',
       subTitle:
-          '''Enjoy the new TV experience, take your TV Everwhere you go! On mobile devices, smart TV sets.'''),
+          '''EWatch 250+ TV channels and unlimited award-winning movies and series on the GO!'''),
   const OnBoardingModel(
       assetName: 'assets/four.png',
-      title: 'Best quality',
-      subTitle: '''Enjoy best quality HD-4k watching OdoTV.''')
+      title: '''There is content for everyone''',
+      subTitle: '''''')
 ];

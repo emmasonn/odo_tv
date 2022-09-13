@@ -13,47 +13,49 @@ class OnBoardingCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: height,
-      child: Stack(alignment: Alignment.bottomLeft, children: [
-        Container(
-          height: height,
-          decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: AssetImage(
-                    onBoarding.assetName,
-                  ),
-                  fit: BoxFit.cover)),
+    return Column(mainAxisSize: MainAxisSize.min, children: [
+      Container(
+        height: 250,
+        decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage(
+                  onBoarding.assetName,
+                ),
+                fit: BoxFit.cover)),
+      ),
+      const SizedBox(
+        height: 10,
+      ),
+      Container(
+        color: Colors.black,
+        padding: const EdgeInsets.all(16),
+        margin: const EdgeInsets.all(8.0),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              onBoarding.title,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.montserrat(
+                  color: Colors.blue,
+                  fontSize: 25,
+                  fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Text(
+              onBoarding.subTitle,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.montserrat(
+                  color: Colors.white,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w600),
+            )
+          ],
         ),
-        Container(
-          color: Colors.black,
-          padding: const EdgeInsets.all(16),
-          margin: const EdgeInsets.all(8.0),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                onBoarding.title,
-                style: GoogleFonts.montserrat(
-                    color: Colors.blue,
-                    fontSize: 17,
-                    fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(
-                height: 10,
-              ),
-              Text(
-                onBoarding.subTitle,
-                style: GoogleFonts.montserrat(
-                    color: Colors.white,
-                    fontSize: 14,
-                    fontWeight: FontWeight.w600),
-              )
-            ],
-          ),
-        )
-      ]),
-    );
+      )
+    ]);
   }
 }
